@@ -29,6 +29,7 @@ nav {
     position: sticky;
     top: 0px;
     background-color: #0fb438;
+    z-index: 9999;
 
 }
 
@@ -43,6 +44,7 @@ nav ul {
     height: 100%;
     padding: 15px;
 font-size: 25px;
+
 }
 
 nav ul li {
@@ -68,14 +70,15 @@ img {
     width:100% ;
 }
 
-nav ul li:hover, .menu a:hover {
+nav ul li:hover, .menu .top-menu:hover {
 	background: transparent;
 	background-color: #0fb43885;
-	color: rgb(131, 131, 192);
-
-}
-a {
+	color: rgb(255, 255, 255);
     text-decoration: none;
-    color: white;
+
 }
 
+.top-menu {
+    color: white;
+    text-decoration: none;
+  }
