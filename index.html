@@ -3,22 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Разделяйка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.11/dist/css/uikit.min.css" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.11/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.11/dist/js/uikit-icons.min.js"></script>
 </head>
 <body>
-    <header class="container"><a href="news.html"><img src="https://sun13-2.userapi.com/eyDJwyjfOoL2ubc8d4HZEhwRMInXk_Z289jmQQ/deQrh3ubzxA.jpg" alt=""></a></header>
-    <nav>
-        <ul>
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="events.html">События</a></li>
-          <li><a href="meetings.html">Встречи</a></li>
-          <li><a href="guid.html">Гайды</a></li>
-          <li><a href="contact.html">Контактные данные</a></li>
+    <header class="container"><a href="index.html"><img src="https://sun13-2.userapi.com/eyDJwyjfOoL2ubc8d4HZEhwRMInXk_Z289jmQQ/deQrh3ubzxA.jpg" alt=""></a></header>
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div uk-navbar>    
+                <div class="uk-navbar-center">    
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="index.html">Главная</a></li>
+                        <li><a href="events.html">Новости</a></li=>
+                        <li><a href="guids.html">Гайды</a></li=>
+                        <li><a href="contact.html">Контакты</a></li>                   
+     
+                    </ul>    
+                </div>    
+            </div>
+        </div>
+    </nav>
     
-        </ul>
-      </nav>
       <div class="container flex">
-    
+    <main>
+        <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-hover uk-card-body">
+                    <h3 class="uk-card-title">О нас</h3>
+                    <p>«Разделяйка» – это ежемесячная экологическая Акция по сбору вторсырья и просветительская работа.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-hover uk-card-body">
+                    <h3 class="uk-card-title">Цели</h3>
+                    <p>Мы хотим привлечь внимание властей, бизнеса и общественности к тому, что уже в сегодняшних условиях возможно обращаться со своими отходами цивилизованно.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-hover uk-card-body">
+                    <h3 class="uk-card-title">Что можно приносить?</h3>
+                <a href="https://vk.com/album-150793226_260492299" class="link"><p>Вещи которые вы можете сдать, для переработки, нажмите на карточку для переноса на страницу с изображениями</p></a>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-hover uk-card-body">
+                    <h3 class="uk-card-title">Что мы делаем со вторсырьем?</h3>
+                    <a href="https://vk.com/wall-150793226_13881" class="link"><p>Все то, что вы собрали и передали нам, мы отправляем в специализированные организации. Некоторые категории копятся на складе, ждут, пока наберется минимальное количество, которое принимает компания-переработчик.</p></a>
+                </div>
+            </div>
+        </div>
+        <a href="volunteer.html"><button class="uk-button uk-button-default uk-button-large uk-align-center"  >Стать волонтёром</button></a>
+    </main>
+
 </body>
 </html>
