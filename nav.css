@@ -1,0 +1,31 @@
+nav {
+    position: sticky;
+    top: 0px;
+     background-color: var(--primary);    
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+	background-color: transparent;
+	background: transparent;
+    gap: 30px;
+    font-weight: 600;
+    height: 100%;
+    padding: 15px;
+    font-size: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    color: aliceblue;
+    padding: 0px 10px ;
+}
+
+nav ul li:hover, .menu a:hover {
+	background: transparent;
+	background-color: var(--secondary);
+	color: rgb(131, 131, 192);
+
+}

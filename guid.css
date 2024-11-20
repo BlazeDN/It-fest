@@ -1,6 +1,8 @@
 .guid-container{
-    
-    background-color:rgb(136, 86, 70) ;
+    display: flex;
+    background-color:rgb(136, 86, 70);
+    flex-direction: column;
+    text-decoration: underline
 }
 h1{
     color:rgb(6, 145, 6)
@@ -10,4 +12,11 @@ h1{
     justify-content: center;
     align-items: center;
     
+}
+
+.cardb {
+
+}
+.cardh3 {
+    text-decoration: underline;
 }
