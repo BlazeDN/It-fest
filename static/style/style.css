@@ -15,3 +15,7 @@ header {
 .bd-mode-toggle {
   z-index: 1500;
 }
+
+.can-img img {
+height: 650px;
+}
